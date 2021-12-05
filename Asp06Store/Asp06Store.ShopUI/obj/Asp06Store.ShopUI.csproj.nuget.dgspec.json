@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Tutorials\\asp.net 6\\project\\workshop - 01\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj": {}
+    "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj": {}
   },
   "projects": {
-    "G:\\Tutorials\\asp.net 6\\project\\workshop - 01\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj": {
+    "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Tutorials\\asp.net 6\\project\\workshop - 01\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj",
+        "projectUniqueName": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj",
         "projectName": "Asp06Store.ShopUI",
-        "projectPath": "G:\\Tutorials\\asp.net 6\\project\\workshop - 01\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj",
+        "projectPath": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj",
         "packagesPath": "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\",
-        "outputPath": "G:\\Tutorials\\asp.net 6\\project\\workshop - 01\\Asp06Store\\Asp06Store.ShopUI\\obj\\",
+        "outputPath": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.ShopUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

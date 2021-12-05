@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KTVjp/3DiJf/fTrwPMlovHp14RAJs0IGjaEeggCmOMAiGv55gjNjPXFH5EuZWo3nmK7CNS3rvwFX8y/R5/MlaA==",
+  "dgSpecHash": "yBIaYH3McotnpEUGVoNaerNCSuzuRHJlPcC+N1jL8b2x+fygq+mKeyzGAF2gdiM1zSKpZfQJFudy6gs5E3jBLg==",
   "success": true,
-  "projectFilePath": "G:\\Tutorials\\asp.net 6\\project\\workshop - 01\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj",
+  "projectFilePath": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

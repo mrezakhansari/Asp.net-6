@@ -6,7 +6,7 @@ namespace Asp06Store.ShopUI.Controllers
     public class HomeController : Controller
     {
         public IProductRepository productRepository { get; }
-        private int pageSize = 4;
+        private int pageSize = 2;
         public HomeController(IProductRepository productRepository)
         {
             this.productRepository = productRepository;

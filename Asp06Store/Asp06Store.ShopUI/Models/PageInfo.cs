@@ -8,5 +8,10 @@
         public int PageCount => (int)Math.Ceiling((double)(TotalCount / PageSize));
     }
 
+    public class PageData<T>
+    {
+        public List<T> Data { get; set; }
+        public PageInfo PageInfo { get; set; }
+    }
 
 }

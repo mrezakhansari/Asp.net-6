@@ -8,9 +8,19 @@
             StoreDbContext = storeDbContext;
         }
 
-        public List<Product> GetAll(int pageNumber,int pageSize)
+        public PageData<Product> GetAll(int pageNumber, int pageSize)
         {
-            return StoreDbContext.Products.Skip((pageNumber -1)*pageSize).Take(pageSize).ToList();
+            var result = new PageData<Product>
+            {
+                PageInfo = new PageInfo
+                {
+                    PageSize = pageSize,
+                    PageNumber = pageNumber
+                }
+            };
+            result.Data =  StoreDbContext.Products.Skip((pageNumber -1)*pageSize).Take(pageSize).ToList();
+            result.PageInfo.TotalCount = StoreDbContext.Products.Count();
+            return result;
         }
     }
 }

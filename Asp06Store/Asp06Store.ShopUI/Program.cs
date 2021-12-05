@@ -21,11 +21,11 @@ app.UseRouting();
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute("pagination", "/{controller=home}/{action=index}/Page{PageNumber}");
-    endpoints.MapDefaultControllerRoute();
+    endpoints.MapDefaultControllerRoute(); //"{controller=home}/{action=index}/{id?}"
 });
-//"{controller=home}/{action=index}/{id?}"
 
+
+app.Run();
 
 //app.MapGet("/", () => "Hello World!");
 
-app.Run();

@@ -1,8 +1,13 @@
-﻿@model List<Product>
+﻿@model PageData<Product>
 <h1>WellCome</h1>
 
-@foreach(var item in Model){
+@foreach(var item in Model.Data){
     <div>
-        <h4>@item.Name</h4>
+        <h4>@item.Name <span><small>@item.Price</small></span></h4>
+        <p>@item.Description</p>
     </div>
 }
+
+<div page-model="Model.PageInfo" page-action="Index" page-classes-enabled="true" page-class="btn" page-class-selected="btn-success">
+
+</div>
