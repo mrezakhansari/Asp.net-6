@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yBIaYH3McotnpEUGVoNaerNCSuzuRHJlPcC+N1jL8b2x+fygq+mKeyzGAF2gdiM1zSKpZfQJFudy6gs5E3jBLg==",
+  "dgSpecHash": "AC9krxTpu09DPvrD23d/wiE8yatL62bqEQDlgYA2KixYCUgc0ybr/+yt5MqteIKhqYXJEmEc5rH6uYHJHrywvg==",
   "success": true,
   "projectFilePath": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.ShopUI\\Asp06Store.ShopUI.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\system.collections.immutable\\6.0.0-rc.2.21480.5\\system.collections.immutable.6.0.0-rc.2.21480.5.nupkg.sha512",
     "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0-rc.2.21480.5\\system.diagnostics.diagnosticsource.6.0.0-rc.2.21480.5.nupkg.sha512",

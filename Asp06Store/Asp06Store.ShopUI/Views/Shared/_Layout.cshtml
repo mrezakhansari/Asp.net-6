@@ -6,9 +6,12 @@
     <title>@ViewBag.Title</title>
     <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css"  />
 </head>
-<body>
-    <div class=row>
-        <div class="col-3">sideBox</div>
+<body> 
+    <div class="row p-1 m-1">
+        <div class="col-3">
+            <vc:category-side-box></vc:category-side-box>
+            <vc:basket-summary></vc:basket-summary>
+            </div>
         <div class="col-9"> @RenderBody()</div>
 
     </div>

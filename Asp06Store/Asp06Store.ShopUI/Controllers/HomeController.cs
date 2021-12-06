@@ -6,14 +6,19 @@ namespace Asp06Store.ShopUI.Controllers
     public class HomeController : Controller
     {
         public IProductRepository productRepository { get; }
-        private int pageSize = 2;
+        private int pageSize = 1;
         public HomeController(IProductRepository productRepository)
         {
             this.productRepository = productRepository;
         }
-        public IActionResult Index(int pageNumber = 1)
+        public IActionResult Index(string category = "", int pageNumber = 1)
         {
-            return View(productRepository.GetAll(pageNumber,pageSize));
+            var viewModel = new ProductListViewModel
+            {
+                CurrentCategory = category,
+                Data = productRepository.GetAll(pageNumber, pageSize, category)
+            };
+            return View(viewModel);
         }
     }
 }

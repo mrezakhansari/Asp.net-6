@@ -1,13 +1,16 @@
-﻿@model PageData<Product>
+﻿@model ProductListViewModel
 <h1>WellCome</h1>
 
-@foreach(var item in Model.Data){
-    <div>
-        <h4>@item.Name <span><small>@item.Price</small></span></h4>
-        <p>@item.Description</p>
-    </div>
+@foreach (var item in Model.Data.Data)
+{
+    @Html.Partial("ProductSummary",item)
+    ;
 }
 
-<div page-model="Model.PageInfo" page-action="Index" page-classes-enabled="true" page-class="btn" page-class-selected="btn-success">
-
-</div>
+<div class="btn-group m-1" page-model="Model.Data.PageInfo"
+     page-action="Index"
+     page-classes-enabled="true"
+     page-class="btn"
+     page-class-normal="btn-outline-dark"
+     page-class-selected="btn-success">
+</div> 
