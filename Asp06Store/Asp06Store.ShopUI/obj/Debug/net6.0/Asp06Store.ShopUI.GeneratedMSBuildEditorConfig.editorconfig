@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Asp06Store.ShopUI
 build_property.RootNamespace = Asp06Store.ShopUI
-build_property.ProjectDir = G:\git\Asp.net-6\Asp06Store\Asp06Store.ShopUI\
+build_property.ProjectDir = g:\git\Asp.net-6\Asp06Store\Asp06Store.ShopUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\git\Asp.net-6\Asp06Store\Asp06Store.ShopUI
+build_property.MSBuildProjectDirectory = g:\git\Asp.net-6\Asp06Store\Asp06Store.ShopUI
 build_property._RazorSourceGeneratorDebug = 
 
 [g:/git/Asp.net-6/Asp06Store/Asp06Store.ShopUI/Views/Basket/Index.cshtml]
@@ -25,6 +25,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [g:/git/Asp.net-6/Asp06Store/Asp06Store.ShopUI/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[g:/git/Asp.net-6/Asp06Store/Asp06Store.ShopUI/Views/Order/Complete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ29tcGxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [g:/git/Asp.net-6/Asp06Store/Asp06Store.ShopUI/Views/Shared/Components/BasketSummary/Default.cshtml]
