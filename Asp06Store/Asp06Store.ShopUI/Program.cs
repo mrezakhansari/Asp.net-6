@@ -14,6 +14,7 @@ builder.Services.AddSession();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<Basket>(c => SessionBasket.GetBasket(c));
 builder.Services.AddScoped<IOrderRepository, EfOrderRepository>();
+builder.Services.AddScoped<ICategoryRepository, EfCategoryRepository>();
 // 2- Built-In Middleware:
 
 var app = builder.Build();  

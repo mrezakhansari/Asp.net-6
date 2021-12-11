@@ -3,18 +3,18 @@ namespace Asp06Store.ShopUI.Components;
 
 public class CategorySideBoxViewComponent : ViewComponent
 {
-    private readonly IProductRepository productRepository;
+    private readonly ICategoryRepository categoryRepository;
 
-    public CategorySideBoxViewComponent(IProductRepository productRepository)
+    public CategorySideBoxViewComponent(ICategoryRepository categoryRepository)
     {
-        this.productRepository = productRepository;
+        this.categoryRepository = categoryRepository;
     }
 
     public IViewComponentResult Invoke()
     {
         var currentCategory = RouteData?.Values["category"];
         ViewBag.Category = currentCategory;
-        return View(productRepository.GetAllCategories());
+        return View(categoryRepository.GetAllCategories());
     }
 }
 

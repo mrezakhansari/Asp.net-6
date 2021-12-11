@@ -22,6 +22,35 @@ namespace Asp06Store.ShopUI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("Asp06Store.ShopUI.Models.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Mobile"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Laptop"
+                        });
+                });
+
             modelBuilder.Entity("Asp06Store.ShopUI.Models.Order", b =>
                 {
                     b.Property<int>("Id")
@@ -81,9 +110,8 @@ namespace Asp06Store.ShopUI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -98,13 +126,15 @@ namespace Asp06Store.ShopUI.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Products");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            Category = "Mobile",
+                            CategoryId = 1,
                             Description = "Fingerprint (side-mounted), unspecified sensors",
                             Name = "Xiaomi Redmi Note 11",
                             Price = 30000000
@@ -112,7 +142,7 @@ namespace Asp06Store.ShopUI.Migrations
                         new
                         {
                             Id = 2,
-                            Category = "Mobile",
+                            CategoryId = 1,
                             Description = "Face ID, accelerometer, gyro, proximity, compass, barometer",
                             Name = "Apple iPhone 13 mini",
                             Price = 50000000
@@ -120,7 +150,7 @@ namespace Asp06Store.ShopUI.Migrations
                         new
                         {
                             Id = 3,
-                            Category = "Laptop",
+                            CategoryId = 2,
                             Description = "Fingerprint",
                             Name = "Asus",
                             Price = 300000000
@@ -128,7 +158,7 @@ namespace Asp06Store.ShopUI.Migrations
                         new
                         {
                             Id = 4,
-                            Category = "Laptop",
+                            CategoryId = 2,
                             Description = "Face ID",
                             Name = "Dell",
                             Price = 500000000
@@ -148,6 +178,17 @@ namespace Asp06Store.ShopUI.Migrations
                         .IsRequired();
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Asp06Store.ShopUI.Models.Product", b =>
+                {
+                    b.HasOne("Asp06Store.ShopUI.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("Asp06Store.ShopUI.Models.Order", b =>
