@@ -117,3 +117,4 @@ G:\git\Asp.net-6\Asp06Store\Asp06Store.ShopUI\obj\Debug\net6.0\Asp06Store.ShopUI
 G:\git\Asp.net-6\Asp06Store\Asp06Store.ShopUI\bin\Debug\net6.0\libman.json
 G:\git\Asp.net-6\Asp06Store\Asp06Store.ShopUI\bin\Debug\net6.0\Asp06Store.ShopUI.staticwebassets.runtime.json
 G:\git\Asp.net-6\Asp06Store\Asp06Store.ShopUI\bin\Debug\net6.0\Newtonsoft.Json.dll
+G:\git\Asp.net-6\Asp06Store\Asp06Store.ShopUI\obj\Debug\net6.0\Asp06Store.ShopUI.csproj.CopyComplete
