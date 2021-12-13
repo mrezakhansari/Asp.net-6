@@ -1,0 +1,16 @@
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\obj\Debug\net6.0\Asp06Store.Core.Domain.GlobalUsings.g.cs
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\obj\Debug\net6.0\Asp06Store.Core.Domain.csproj.AssemblyReference.cache
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\obj\Debug\net6.0\Asp06Store.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\obj\Debug\net6.0\Asp06Store.Core.Domain.AssemblyInfoInputs.cache
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\obj\Debug\net6.0\Asp06Store.Core.Domain.AssemblyInfo.cs
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\obj\Debug\net6.0\Asp06Store.Core.Domain.csproj.CoreCompileInputs.cache
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\bin\Debug\net6.0\Asp06Store.Core.Domain.deps.json
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\bin\Debug\net6.0\Asp06Store.Core.Domain.dll
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\bin\Debug\net6.0\ref\Asp06Store.Core.Domain.dll
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\bin\Debug\net6.0\Asp06Store.Core.Domain.pdb
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\bin\Debug\net6.0\Asp06Store.Framework.dll
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\bin\Debug\net6.0\Asp06Store.Framework.pdb
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\obj\Debug\net6.0\Asp06Store.Core.Domain.csproj.CopyComplete
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\obj\Debug\net6.0\Asp06Store.Core.Domain.dll
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\obj\Debug\net6.0\ref\Asp06Store.Core.Domain.dll
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Core.Domain\obj\Debug\net6.0\Asp06Store.Core.Domain.pdb

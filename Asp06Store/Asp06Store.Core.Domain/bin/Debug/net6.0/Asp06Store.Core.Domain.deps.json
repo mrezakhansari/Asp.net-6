@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Asp06Store.Core.Domain/1.0.0": {
+        "dependencies": {
+          "Asp06Store.Framework": "1.0.0"
+        },
+        "runtime": {
+          "Asp06Store.Core.Domain.dll": {}
+        }
+      },
+      "Asp06Store.Framework/1.0.0": {
+        "runtime": {
+          "Asp06Store.Framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Asp06Store.Core.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Asp06Store.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

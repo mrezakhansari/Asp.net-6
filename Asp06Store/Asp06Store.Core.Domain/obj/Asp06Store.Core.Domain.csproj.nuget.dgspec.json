@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Core.Domain\\Asp06Store.Core.Domain.csproj": {}
+  },
+  "projects": {
+    "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Core.Domain\\Asp06Store.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Core.Domain\\Asp06Store.Core.Domain.csproj",
+        "projectName": "Asp06Store.Core.Domain",
+        "projectPath": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Core.Domain\\Asp06Store.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\",
+        "outputPath": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khansari.mohamadreza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Framework\\Asp06Store.Framework.csproj": {
+                "projectPath": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Framework\\Asp06Store.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Framework\\Asp06Store.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Framework\\Asp06Store.Framework.csproj",
+        "projectName": "Asp06Store.Framework",
+        "projectPath": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Framework\\Asp06Store.Framework.csproj",
+        "packagesPath": "C:\\Users\\khansari.mohamadreza\\.nuget\\packages\\",
+        "outputPath": "G:\\git\\Asp.net-6\\Asp06Store\\Asp06Store.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khansari.mohamadreza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

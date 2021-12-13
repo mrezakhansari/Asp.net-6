@@ -1,0 +1,13 @@
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\bin\Debug\net6.0\Asp06Store.Framework.deps.json
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\bin\Debug\net6.0\Asp06Store.Framework.dll
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\bin\Debug\net6.0\ref\Asp06Store.Framework.dll
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\bin\Debug\net6.0\Asp06Store.Framework.pdb
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\obj\Debug\net6.0\Asp06Store.Framework.GlobalUsings.g.cs
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\obj\Debug\net6.0\Asp06Store.Framework.csproj.AssemblyReference.cache
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\obj\Debug\net6.0\Asp06Store.Framework.GeneratedMSBuildEditorConfig.editorconfig
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\obj\Debug\net6.0\Asp06Store.Framework.AssemblyInfoInputs.cache
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\obj\Debug\net6.0\Asp06Store.Framework.AssemblyInfo.cs
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\obj\Debug\net6.0\Asp06Store.Framework.csproj.CoreCompileInputs.cache
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\obj\Debug\net6.0\Asp06Store.Framework.dll
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\obj\Debug\net6.0\ref\Asp06Store.Framework.dll
+G:\git\Asp.net-6\Asp06Store\Asp06Store.Framework\obj\Debug\net6.0\Asp06Store.Framework.pdb
